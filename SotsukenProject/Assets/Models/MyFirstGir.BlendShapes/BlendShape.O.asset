@@ -11,12 +11,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37562b39ff933b245ac2f35d87edbcd6, type: 3}
   m_Name: BlendShape.O
   m_EditorClassIdentifier: 
-  m_prefab: {fileID: 0}
+  m_prefab: {fileID: 1534038237592558, guid: f427acad4d16e4e898ed382dd55aedd7, type: 2}
   BlendShapeName: O
   Preset: 6
   Values:
   - RelativePath: Face
+    Index: 29
+    Weight: 53.5
+  - RelativePath: Face
+    Index: 31
+    Weight: 44.4
+  - RelativePath: Face
     Index: 33
-    Weight: 100
+    Weight: 21.3
   MaterialValues: []
   IsBinary: 0
