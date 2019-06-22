@@ -1884,7 +1884,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FirstPersonBone: {fileID: 1350991618}
-  FirstPersonOffset: {x: 0.000008517531, y: 0.06000003, z: 0.0001366142}
+  FirstPersonOffset: {x: 0.000009862021, y: 0.06000003, z: 0.0001366142}
   Renderers:
   - Renderer: {fileID: 873487827}
     FirstPersonFlag: 0
@@ -1984,7 +1984,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playStartKey: 115
   _playStopKey: 116
-  RecordedMotionData: {fileID: 0}
+  RecordedMotionData: {fileID: 11400000, guid: 4ef1a62c0f8e1e44fb93c8620c117abd, type: 2}
   clip: {fileID: 0}
   existClip: 0
   _animator: {fileID: 0}
