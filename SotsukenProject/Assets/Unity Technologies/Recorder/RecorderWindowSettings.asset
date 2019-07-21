@@ -56,7 +56,7 @@ MonoBehaviour:
   m_DurationMode: 0
   m_SynchFrameRate: 1
   m_BaseFileName:
-    m_Pattern: movie.<ext>
+    m_Pattern: movie-<ts>.<ext>
   m_DestinationPath:
     m_root: 5
     m_leaf: /Recordings
@@ -68,7 +68,7 @@ MonoBehaviour:
   m_RecorderTypeName: UnityEditor.Recorder.MediaRecorder, Assembly-CSharp-Editor,
     Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OutputFormat: 0
-  m_VideoBitRateMode: 2
+  m_VideoBitRateMode: 1
   m_AppendSuffix: 0
 --- !u!114 &114248268418815870
 MonoBehaviour:
