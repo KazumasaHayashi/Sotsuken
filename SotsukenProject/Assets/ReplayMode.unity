@@ -11344,7 +11344,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FirstPersonBone: {fileID: 1350991618}
-  FirstPersonOffset: {x: 0.00003143738, y: 0.06116793, z: 0.0001366142}
+  FirstPersonOffset: {x: -0.00034780992, y: 0.06197024, z: -0.00013187497}
   Renderers:
   - Renderer: {fileID: 873487827}
     FirstPersonFlag: 0
@@ -11420,7 +11420,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 500384931}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0.013, y: 0.55, z: 0.028999805}
+  m_LocalPosition: {x: 1.021, y: 1.084, z: 0.88}
   m_LocalScale: {x: 1.1, y: 1.1, z: 1.1}
   m_Children:
   - {fileID: 873487828}
@@ -21382,7 +21382,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1003204410}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 4.983, y: 3.75, z: 5.212}
+  m_LocalPosition: {x: 4.983, y: 3.75, z: -1.165}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1106750653}
@@ -24712,7 +24712,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4734933881020700, guid: 26de42e5745b2b547b1714ecb3625597, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.005
       objectReference: {fileID: 0}
     - target: {fileID: 4734933881020700, guid: 26de42e5745b2b547b1714ecb3625597, type: 2}
       propertyPath: m_LocalRotation.x
@@ -24753,7 +24753,7 @@ Prefab:
         type: 2}
       propertyPath: RecordedMotionData
       value: 
-      objectReference: {fileID: 11400000, guid: 9dcfc9c522765c44d8d922a107f7824e,
+      objectReference: {fileID: 11400000, guid: 9734058039184ee419ea6b90f971fcd8,
         type: 2}
     - target: {fileID: 114854222126709126, guid: 26de42e5745b2b547b1714ecb3625597,
         type: 2}
