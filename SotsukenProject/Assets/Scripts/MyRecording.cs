@@ -16,6 +16,8 @@ public class MyRecording : MonoBehaviour
     const int samplingFrequency = 44100; //サンプリング周波数
     const int maxTime_s = 1200; //最大録音時間[s]
 
+    AudioClip[] audioArray = new AudioClip[1000];
+
     // public Action OnRecordStart;
     // public Action OnRecordEnd;
 
