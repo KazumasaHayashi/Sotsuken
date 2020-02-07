@@ -12,45 +12,33 @@ public class CameraChanger : MonoBehaviour {
     private GameObject camera2;
 	[SerializeField]
     private GameObject camera3;
-
 	[SerializeField]
     private GameObject camera4;
 	[SerializeField]
     private GameObject camera5;
 	[SerializeField]
     private GameObject camera6;
-
+    [SerializeField]
+    private GameObject camera7;
+	[SerializeField]
+    private GameObject camera8;
+	[SerializeField]
+    private GameObject camera9;
+	[SerializeField]
+    private GameObject camera10;
+	[SerializeField]
+    private GameObject camera11;
+	
 	private int cameraNumber = 0;
 	
 
-		
- 
-    //呼び出し時に実行される関数
     void Start () {
-        //メインカメラとサブカメラをそれぞれ取得
-        // mainCamera = GameObject.Find("MainCamera");
-        // subCamera = GameObject.Find("SubCamera");
- 
-        //サブカメラを非アクティブにする
-        // subCamera.SetActive(false); 
-
 	
     }
 	//単位時間ごとに実行される関数
 	void Update () {
-		//スペースキーが押されている間、サブカメラをアクティブにする
-        // if(Input.GetKey("space")){
-        //     //サブカメラをアクティブに設定
-        //     mainCamera.SetActive(false);
-        //     subCamera.SetActive(true);
-        // }
-        // else{
-        //     //メインカメラをアクティブに設定
-        //     subCamera.SetActive(false);
-        //     mainCamera.SetActive(true);
-        // }
 
-		if(Input.GetKeyDown(KeyCode.Space) && cameraNumber < 6){
+		if(Input.GetKeyDown(KeyCode.Space) && cameraNumber < 11){
 			cameraNumber++;
             
             switch(cameraNumber){
@@ -75,7 +63,21 @@ public class CameraChanger : MonoBehaviour {
                 case 6:
                     ToCamera6();
                     break;
-                
+                case 7:
+                    ToCamera7(); 
+                    break;
+                case 8:
+                    ToCamera8();
+                    break;
+                case 9:
+                    ToCamera9();
+                    break;
+                case 10:
+                    ToCamera10();
+                    break;
+                case 11:
+                    ToCamera11();
+                    break;
             }
 		}
         
@@ -104,11 +106,23 @@ public class CameraChanger : MonoBehaviour {
                 case 6:
                     ToCamera6();
                     break;
-                
+                case 7:
+                    ToCamera7(); 
+                    break;
+                case 8:
+                    ToCamera8();
+                    break;
+                case 9:
+                    ToCamera9();
+                    break;
+                case 10:
+                    ToCamera10();
+                    break;
+                case 11:
+                    ToCamera11();
+                    break;
             }
 		}
-        
-
 	}
 
 	private void ToCamera0(){
@@ -149,13 +163,43 @@ public class CameraChanger : MonoBehaviour {
     private void ToCamera6(){
 		camera5.SetActive(false);
 		camera6.SetActive(true);
-        // camera7.SetActive(false);
+        camera7.SetActive(false);
 	}
 
-    // private void ToCamera7(){
-	// 	camera6.SetActive(false);
-	// 	camera7.SetActive(true);
-    //     camera8.SetActive(false);
+    private void ToCamera7(){
+		camera6.SetActive(false);
+		camera7.SetActive(true);
+        camera8.SetActive(false);
+	}
+
+    private void ToCamera8(){
+		camera7.SetActive(false);
+		camera8.SetActive(true);
+        camera9.SetActive(false);
+	}
+
+    private void ToCamera9(){
+		camera8.SetActive(false);
+		camera9.SetActive(true);
+        camera10.SetActive(false);
+	}
+
+    private void ToCamera10(){
+		camera9.SetActive(false);
+		camera10.SetActive(true);
+        camera11.SetActive(false);
+	}
+
+    private void ToCamera11(){
+		camera10.SetActive(false);
+		camera11.SetActive(true);
+        // camera12.SetActive(false);
+	}
+
+    // private void ToCamera12(){
+	// 	camera11.SetActive(false);
+	// 	camera12.SetActive(true);
+    //     camera13.SetActive(false);
 	// }
 
 
