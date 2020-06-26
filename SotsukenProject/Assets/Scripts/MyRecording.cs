@@ -16,8 +16,6 @@ public class MyRecording : MonoBehaviour
     const int samplingFrequency = 44100; //サンプリング周波数
     const int maxTime_s = 1200; //最大録音時間[s]
 
-    AudioClip[] audioArray = new AudioClip[1000];
-
     // public Action OnRecordStart;
     // public Action OnRecordEnd;
 
@@ -63,6 +61,14 @@ public class MyRecording : MonoBehaviour
             audioSource = gameObject.GetComponent<AudioSource>();
             audioSource.clip = myclip;
             ES2.Save<AudioClip>(audioSource.clip, "MyAudioClip");
+
+
+            SafeCreateDirectory("Assets/Resources");
+            var path = string.Format("Assets/Resources/RecordMotion_{0}{1:yyyy_MM_dd_HH_mm_ss}.asset", myclip.name, DateTime.Now);
+            var uniqueAssetPath = AssetDatabase.GenerateUniqueAssetPath(path);
+            AssetDatabase.CreateAsset(myclip, uniqueAssetPath);
+            AssetDatabase.SaveAssets();
+            Debug.Log(AssetDatabase.GetAssetPath(myclip));
 
 
 

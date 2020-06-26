@@ -51,12 +51,12 @@ public class NewMyRecording : MonoBehaviour
 
         // OnRecordStart += WriteRecordFile;
 
-		audioArray[]
+		// audioArray[]
 
         Debug.Log("Audio recording start");
 
     }
-sssss
+    
     public void EndButton()
     {
         if (Microphone.IsRecording(deviceName: micName) == true)
@@ -66,7 +66,7 @@ sssss
 
             audioSource = gameObject.GetComponent<AudioSource>();
             audioSource.clip = myclip;
-            ES2.Save<AudioClip>(audioSource.clip, "MyAudioClip");
+            //ES2.Save<AudioClip>(audioSource.clip, "MyAudioClip");
 
 
 
@@ -95,7 +95,7 @@ sssss
         //audioSource.clip = myclip;
         //audioSource.Play();
         audioSource = gameObject.GetComponent<AudioSource>();
-        audioSource.clip = ES2.Load<AudioClip>("MyAudioClip");
+        //audioSource.clip = ES2.Load<AudioClip>("MyAudioClip");
         audioSource.Play();
         Debug.Log(Application.persistentDataPath);
 
