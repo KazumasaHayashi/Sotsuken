@@ -72,6 +72,15 @@
       "name": "/actions/mixedreality/in/ExternalCamera",
       "type": "pose",
       "requirement": "optional"
+    },
+    {
+      "name": "/actions/pagecontroller/in/NextSlide",
+      "type": "boolean",
+      "requirement": "suggested"
+    },
+    {
+      "name": "/actions/pagecontroller/in/BackSlide",
+      "type": "boolean"
     }
   ],
   "action_sets": [
@@ -89,6 +98,10 @@
     },
     {
       "name": "/actions/mixedreality",
+      "usage": "single"
+    },
+    {
+      "name": "/actions/pagecontroller",
       "usage": "single"
     }
   ],
