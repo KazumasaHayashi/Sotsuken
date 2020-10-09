@@ -14,8 +14,8 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - StereoRender_Ignore
-  - 
+  - FIRSTPERSON_ONLY_LAYER
+  - THIRDPERSON_ONLY_LAYER
   - 
   - 
   - 
