@@ -27,7 +27,7 @@ namespace Com.MyCompany.MyGame
         [SerializeField]
         private KeyCode _PlaybackSoundStartKey = KeyCode.S;
 
-        private MyRecording recorder;
+        private AudioSource recorder;
         #endregion
 
         #region Photon Messages
@@ -47,7 +47,7 @@ namespace Com.MyCompany.MyGame
 
         void Start()
         {
-            recorder = gameObject.GetComponent<MyRecording>();
+            recorder = gameObject.GetComponent<AudioSource>();
         }
 
 
@@ -55,7 +55,7 @@ namespace Com.MyCompany.MyGame
         {
             if (Input.GetKeyDown(_PlaybackSoundStartKey))
             {
-                recorder.PlayButton();
+                recorder.Play();
             }
         }
 
