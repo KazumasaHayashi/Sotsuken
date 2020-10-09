@@ -3257,7 +3257,7 @@ Transform:
   m_Father: {fileID: 4046427470197378}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!90 &90652487125445496
+--- !u!90 &90706137315439992
 Avatar:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -4352,8 +4352,8 @@ Avatar:
                 m_Max: {x: 0, y: 0.34906584, z: 0.2617994}
               m_Length: 0.1
               m_Type: 1
-            - m_PreQ: {x: 0.030472659, y: 0.0026061297, z: 0.99589676, w: -0.085172616}
-              m_PostQ: {x: 0.030472659, y: 0.0026061297, z: 0.99589676, w: -0.085172616}
+            - m_PreQ: {x: 0.030472659, y: 0.0026061293, z: 0.99589676, w: -0.08517261}
+              m_PostQ: {x: 0.030472659, y: 0.0026061293, z: 0.99589676, w: -0.08517261}
               m_Sgn: {x: 1, y: 1, z: -1}
               m_Limit:
                 m_Min: {x: 0, y: -0.2617994, z: -0.2617994}
@@ -4393,7 +4393,7 @@ Avatar:
               m_Length: 0.033222396
               m_Type: 1
             - m_PreQ: {x: 0.05320601, y: 0.018541051, z: 0.94280607, w: -0.32854587}
-              m_PostQ: {x: 0.056336295, y: 0.00093354913, z: 0.99827445, w: -0.016542414}
+              m_PostQ: {x: 0.056336295, y: 0.0009335489, z: 0.99827445, w: -0.01654241}
               m_Sgn: {x: -1, y: 1, z: -1}
               m_Limit:
                 m_Min: {x: 0, y: 0, z: -0.7853982}
@@ -4401,7 +4401,7 @@ Avatar:
               m_Length: 0.020454474
               m_Type: 1
             - m_PreQ: {x: 0.05320601, y: 0.018541051, z: 0.94280607, w: -0.32854587}
-              m_PostQ: {x: 0.056336295, y: 0.0009335491, z: 0.99827445, w: -0.016542412}
+              m_PostQ: {x: 0.056336295, y: 0.00093354896, z: 0.99827445, w: -0.01654241}
               m_Sgn: {x: -1, y: 1, z: -1}
               m_Limit:
                 m_Min: {x: 0, y: 0, z: -0.7853982}
@@ -4416,7 +4416,7 @@ Avatar:
                 m_Max: {x: 0, y: 0.34906584, z: 0.87266463}
               m_Length: 0.031399496
               m_Type: 1
-            - m_PreQ: {x: -0.02491124, y: -0.0077048503, z: 0.9550236, w: -0.29538128}
+            - m_PreQ: {x: -0.02491124, y: -0.007704851, z: 0.9550236, w: -0.2953813}
               m_PostQ: {x: -0.026070954, y: 0.00048987445, z: 0.99948364, w: 0.018780343}
               m_Sgn: {x: -1, y: 1, z: -1}
               m_Limit:
@@ -4424,7 +4424,7 @@ Avatar:
                 m_Max: {x: 0, y: 0, z: 0.7853982}
               m_Length: 0.01809632
               m_Type: 1
-            - m_PreQ: {x: -0.02491124, y: -0.0077048503, z: 0.9550236, w: -0.29538128}
+            - m_PreQ: {x: -0.02491124, y: -0.007704851, z: 0.9550236, w: -0.2953813}
               m_PostQ: {x: -0.026070954, y: 0.00048987445, z: 0.99948364, w: 0.018780343}
               m_Sgn: {x: -1, y: 1, z: -1}
               m_Limit:
@@ -4464,7 +4464,7 @@ Avatar:
                 m_Max: {x: 0, y: 0.1308997, z: 0.87266463}
               m_Length: 0.034327567
               m_Type: 1
-            - m_PreQ: {x: 0.00599495, y: 0.0018614609, z: 0.95500207, w: -0.29653272}
+            - m_PreQ: {x: 0.00599495, y: 0.0018614611, z: 0.95500207, w: -0.29653275}
               m_PostQ: {x: 0.0062763155, y: -0.000110985806, z: 0.999824, w: 0.01768016}
               m_Sgn: {x: -1, y: 1, z: -1}
               m_Limit:
@@ -4472,7 +4472,7 @@ Avatar:
                 m_Max: {x: 0, y: 0, z: 0.7853982}
               m_Length: 0.019810496
               m_Type: 1
-            - m_PreQ: {x: 0.00599495, y: 0.0018614609, z: 0.95500207, w: -0.29653272}
+            - m_PreQ: {x: 0.00599495, y: 0.0018614611, z: 0.95500207, w: -0.29653275}
               m_PostQ: {x: 0.0062763155, y: -0.00011098579, z: 0.999824, w: 0.017680159}
               m_Sgn: {x: -1, y: 1, z: -1}
               m_Limit:
@@ -4480,7 +4480,7 @@ Avatar:
                 m_Max: {x: 0, y: 0, z: 0.7853982}
               m_Length: 0.011143404
               m_Type: 1
-            - m_PreQ: {x: 0.25516075, y: 0.62820834, z: 0.58069915, w: -0.45059493}
+            - m_PreQ: {x: 0.25516075, y: 0.6282084, z: 0.58069915, w: -0.450595}
               m_PostQ: {x: 0.25711292, y: 0.64267313, z: 0.65870553, w: -0.294909}
               m_Sgn: {x: -1, y: -1, z: 1}
               m_Limit:
@@ -4489,7 +4489,7 @@ Avatar:
               m_Length: 0.046533648
               m_Type: 1
             - m_PreQ: {x: 0.099059395, y: 0.6939239, z: 0.70013374, w: -0.13590313}
-              m_PostQ: {x: 0.23444325, y: 0.65379554, z: 0.66711044, w: -0.26935366}
+              m_PostQ: {x: 0.23444325, y: 0.6537956, z: 0.66711044, w: -0.2693537}
               m_Sgn: {x: -1, y: 1, z: 1}
               m_Limit:
                 m_Min: {x: 0, y: 0, z: -0.6981317}
@@ -4497,15 +4497,15 @@ Avatar:
               m_Length: 0.028623465
               m_Type: 1
             - m_PreQ: {x: 0.09905941, y: 0.69392383, z: 0.7001337, w: -0.13590313}
-              m_PostQ: {x: 0.23444326, y: 0.65379554, z: 0.66711044, w: -0.26935366}
+              m_PostQ: {x: 0.23444326, y: 0.6537956, z: 0.66711044, w: -0.2693537}
               m_Sgn: {x: -1, y: 1, z: 1}
               m_Limit:
                 m_Min: {x: 0, y: 0, z: -0.6981317}
                 m_Max: {x: 0, y: 0, z: 0.61086524}
               m_Length: 0.016100701
               m_Type: 1
-            - m_PreQ: {x: -0.0026061162, y: -0.030472474, z: -0.08517269, w: 0.9958968}
-              m_PostQ: {x: -0.0026061162, y: -0.030472474, z: -0.08517269, w: 0.9958968}
+            - m_PreQ: {x: -0.0026061162, y: -0.03047247, z: -0.08517269, w: 0.9958967}
+              m_PostQ: {x: -0.0026061162, y: -0.03047247, z: -0.08517269, w: 0.9958967}
               m_Sgn: {x: 1, y: 1, z: 1}
               m_Limit:
                 m_Min: {x: 0, y: -0.2617994, z: -0.2617994}
@@ -4521,7 +4521,7 @@ Avatar:
               m_Length: 0.21925229
               m_Type: 1
             - m_PreQ: {x: -0.5220154, y: -0.47583577, z: -0.4769697, w: 0.5230492}
-              m_PostQ: {x: -0.7064754, y: -0.02834312, z: -0.02987625, w: 0.7065385}
+              m_PostQ: {x: -0.7064754, y: -0.028343124, z: -0.02987625, w: 0.70653856}
               m_Sgn: {x: -1, y: 1, z: 1}
               m_Limit:
                 m_Min: {x: -1.5707964, y: 0, z: -1.3962634}
@@ -4608,7 +4608,7 @@ Avatar:
                 m_Max: {x: 0, y: 0, z: 0.7853982}
               m_Length: 0.012841564
               m_Type: 1
-            - m_PreQ: {x: 0.0010406259, y: -0.035883255, z: 0.2946256, w: -0.9549383}
+            - m_PreQ: {x: 0.0010406259, y: -0.03588326, z: 0.2946256, w: -0.95493835}
               m_PostQ: {x: -0.000019696105, y: -0.0025138524, z: -0.007834763, w: 0.99996614}
               m_Sgn: {x: 1, y: 1, z: 1}
               m_Limit:
@@ -5071,7 +5071,7 @@ Animator:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1852896406163286}
   m_Enabled: 1
-  m_Avatar: {fileID: 90652487125445496}
+  m_Avatar: {fileID: 90706137315439992}
   m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
@@ -5119,41 +5119,7 @@ MonoBehaviour:
   - Offset: {x: 0.14949128, y: -0.000325799, z: 0.012339644}
     Radius: 0.030000003
   m_gizmoColor: {r: 1, g: 0, b: 1, a: 1}
---- !u!114 &114225711656199938
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1866058495900472}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 646b65a4a57afd34d8c4ed557efb46a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Colliders:
-  - Offset: {x: 0, y: 0, z: 0}
-    Radius: 0.12
-  m_gizmoColor: {r: 1, g: 0, b: 1, a: 1}
---- !u!114 &114283444561785868
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1797065353945288}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 646b65a4a57afd34d8c4ed557efb46a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Colliders:
-  - Offset: {x: 0.00045452267, y: -0.009940386, z: -0.0009916029}
-    Radius: 0.049999997
-  - Offset: {x: -0.07446171, y: -0.013428688, z: -0.0003630994}
-    Radius: 0.049999997
-  - Offset: {x: -0.14937794, y: -0.01691699, z: 0.00026540412}
-    Radius: 0.049999997
-  m_gizmoColor: {r: 1, g: 0, b: 1, a: 1}
---- !u!114 &114312141523179906
+--- !u!114 &114123983057056254
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -5551,6 +5517,40 @@ MonoBehaviour:
     max: {x: 0, y: 0, z: 0}
     center: {x: 0, y: 0, z: 0}
     axisLength: 0
+--- !u!114 &114225711656199938
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1866058495900472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 646b65a4a57afd34d8c4ed557efb46a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Colliders:
+  - Offset: {x: 0, y: 0, z: 0}
+    Radius: 0.12
+  m_gizmoColor: {r: 1, g: 0, b: 1, a: 1}
+--- !u!114 &114283444561785868
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1797065353945288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 646b65a4a57afd34d8c4ed557efb46a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Colliders:
+  - Offset: {x: 0.00045452267, y: -0.009940386, z: -0.0009916029}
+    Radius: 0.049999997
+  - Offset: {x: -0.07446171, y: -0.013428688, z: -0.0003630994}
+    Radius: 0.049999997
+  - Offset: {x: -0.14937794, y: -0.01691699, z: 0.00026540412}
+    Radius: 0.049999997
+  m_gizmoColor: {r: 1, g: 0, b: 1, a: 1}
 --- !u!114 &114461270647265314
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5760,31 +5760,6 @@ MonoBehaviour:
   - {fileID: 114820003057187984}
   - {fileID: 114225711656199938}
   - {fileID: 114980904394992872}
---- !u!114 &114503001276103084
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63b589176a34b344b9ccbee2b7e7114a, type: 3}
-  m_Name: Meta
-  m_EditorClassIdentifier: 
-  ExporterVersion: VRoidStudio-0.11.2
-  Title: LongHair
-  Version: 
-  Author: kzoon
-  ContactInformation: 
-  Reference: 
-  Thumbnail: {fileID: 2800000, guid: 6eb30c2bff9394f9cb03dc1c1ef9c74a, type: 3}
-  AllowedUser: 2
-  ViolentUssage: 1
-  SexualUssage: 1
-  CommercialUssage: 0
-  OtherPermissionUrl: 
-  LicenseType: 0
-  OtherLicenseUrl: 
 --- !u!114 &114513059626716670
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5938,8 +5913,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3869812175467a143ab9cd865752b4a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Avatar: {fileID: 90652487125445496}
-  Description: {fileID: 114312141523179906}
+  Avatar: {fileID: 90706137315439992}
+  Description: {fileID: 114123983057056254}
 --- !u!114 &114778586076036892
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6020,6 +5995,31 @@ MonoBehaviour:
   - Offset: {x: 0.050000004, y: 0.059607506, z: -0.027783815}
     Radius: 0.07
   m_gizmoColor: {r: 1, g: 0, b: 1, a: 1}
+--- !u!114 &114829034811818782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63b589176a34b344b9ccbee2b7e7114a, type: 3}
+  m_Name: Meta
+  m_EditorClassIdentifier: 
+  ExporterVersion: VRoidStudio-0.11.2
+  Title: LongHair
+  Version: 
+  Author: kzoon
+  ContactInformation: 
+  Reference: 
+  Thumbnail: {fileID: 2800000, guid: 6eb30c2bff9394f9cb03dc1c1ef9c74a, type: 3}
+  AllowedUser: 2
+  ViolentUssage: 1
+  SexualUssage: 1
+  CommercialUssage: 0
+  OtherPermissionUrl: 
+  LicenseType: 0
+  OtherLicenseUrl: 
 --- !u!114 &114839570832137914
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6031,7 +6031,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 690ea0146224b8b4694a1925dddeb352, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Meta: {fileID: 114503001276103084}
+  Meta: {fileID: 114829034811818782}
 --- !u!114 &114841970241147474
 MonoBehaviour:
   m_ObjectHideFlags: 1
