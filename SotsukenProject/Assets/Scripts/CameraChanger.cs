@@ -38,7 +38,7 @@ public class CameraChanger : MonoBehaviour {
 	//単位時間ごとに実行される関数
 	void Update () {
 
-		if(Input.GetKeyDown(KeyCode.Space) && cameraNumber < 11){
+		if(Input.GetKeyDown(KeyCode.N) && cameraNumber < 11){
 			cameraNumber++;
             
             switch(cameraNumber){
